@@ -70,11 +70,11 @@
         num_layer {
             label = "Num";
             bindings = <
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                       &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp LBKT   &kp N7     &kp N8     &kp N9     &kp RBKT                        &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp SEMI   &kp N4     &kp N5     &kp N6     &kp EQUAL                       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &kp trans
-                &kp trans  &kp GRAVE  &kp N1     &kp N2     &kp N3     &kp BSLH  &kp trans  &kp trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &kp trans
-                                                 &kp trans  &kp MINUS  &kp DOT   &kp N0     &kp trans  &kp trans  &kp trans  &kp trans
+                &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &kp LBKT   &kp N7     &kp N8     &kp N9     &kp RBKT                        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &kp SEMI   &kp N4     &kp N5     &kp N6     &kp EQUAL                       &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &trans
+                &trans  &kp GRAVE  &kp N1     &kp N2     &kp N3     &kp BSLH  &trans  &trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &trans
+                                                 &trans  &kp MINUS  &kp DOT   &kp N0     &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -83,11 +83,11 @@
         sym_layer {
             label = "Sym";
             bindings = <
-                &kp trans  &kp trans      &kp trans      &kp trans      &kp trans      &kp trans                            &kp trans  &kp trans   &kp trans     &kp trans     &kp trans  &kp trans
-                &kp trans  &kp LS(LBKT)   &kp LS(N7)     &kp LS(N8)     &kp LS(N9)     &kp LS(RBKT)                         &kp trans  &kp trans   &kp trans     &kp trans     &kp trans  &kp trans
-                &kp trans  &kp LS(SEMI)   &kp LS(N4)     &kp LS(N5)     &kp LS(N6)     &kp LS(EQUAL)                        &kp trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp trans  &kp trans
-                &kp trans  &kp LS(GRAVE)  &kp LS(N1)     &kp LS(N2)     &kp LS(N3)     &kp LS(BSLH)  &kp trans   &kp trans  &kp trans  &kp C_PP    &kp C_PREV    &kp C_NEXT    &kp trans  &kp trans
-                                                         &kp trans      &kp LS(MINUS)  &kp LS(DOT)   &kp LS(N0)  &kp trans  &kp trans  &kp trans   &kp trans
+                &trans  &trans      &trans      &trans      &trans      &trans                            &trans  &trans   &trans     &trans     &trans  &trans
+                &trans  &kp LS(LBKT)   &kp LS(N7)     &kp LS(N8)     &kp LS(N9)     &kp LS(RBKT)                         &trans  &trans   &trans     &trans     &trans  &trans
+                &trans  &kp LS(SEMI)   &kp LS(N4)     &kp LS(N5)     &kp LS(N6)     &kp LS(EQUAL)                        &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans
+                &trans  &kp LS(GRAVE)  &kp LS(N1)     &kp LS(N2)     &kp LS(N3)     &kp LS(BSLH)  &trans   &trans  &trans  &kp C_PP    &kp C_PREV    &kp C_NEXT    &trans  &trans
+                                                         &trans      &kp LS(MINUS)  &kp LS(DOT)   &kp LS(N0)  &trans  &trans  &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -96,11 +96,11 @@
         fun_layer {
             label = "Fun";
             bindings = <
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans   &kp trans                        &kp trans     &kp trans     &kp trans     &kp trans     &kp trans     &bt BT_CLR
-                &kp trans  &kp F12    &kp F7     &kp F8     &kp F9      &kp PSCRN                        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp trans
-                &kp trans  &kp F11    &kp F4     &kp F5     &kp F6      &kp SLCK                         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &kp trans     &kp trans     &kp trans
-                &kp trans  &kp F10    &kp F1     &kp F2     &kp F3      &kp INS    &kp trans  &kp trans  &kp trans     &kp trans     &kp trans     &kp trans     &kp trans     &kp SYSREQ
-                                                 &kp trans  &kp C_MENU  &kp SPACE  &kp TAB    &kp trans  &kp trans     &kp trans     &kp trans
+                &trans  &trans  &trans  &trans  &trans   &trans                        &trans     &trans     &trans     &trans     &trans     &bt BT_CLR
+                &trans  &kp F12    &kp F7     &kp F8     &kp F9      &kp PSCRN                        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+                &trans  &kp F11    &kp F4     &kp F5     &kp F6      &kp SLCK                         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &trans     &trans     &trans
+                &trans  &kp F10    &kp F1     &kp F2     &kp F3      &kp INS    &trans  &trans  &trans     &trans     &trans     &trans     &trans     &kp SYSREQ
+                                                 &trans  &kp C_MENU  &kp SPACE  &kp TAB    &trans  &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -109,11 +109,11 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &kp trans
-                                                 &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp ESC    &kp trans  kp trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &trans
+                                                 &trans  &trans  &trans  &trans  &trans  &kp ESC    &trans  kp trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -122,11 +122,11 @@
         med_layer {
             label = "Med";
             bindings = <
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans   &kp trans     &kp trans     &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans   &kp trans     &kp trans     &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp C_PP    &kp C_PREV    &kp C_NEXT    &kp trans  &kp trans
-                                                 &kp trans  &kp trans  &kp trans  &kp trans  &kp F13    &kp F14    &kp F15   kp trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans   &trans     &trans     &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans   &trans     &trans     &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PP    &kp C_PREV    &kp C_NEXT    &trans  &trans
+                                                 &trans  &trans  &trans  &trans  &kp F13    &kp F14    &kp F15   kp trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -135,11 +135,11 @@
         mos_layer {
             label = "mos";
             bindings = <
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans                        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &kp trans
-                &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &kp trans
-                                                 &kp trans  &kp trans  &kp trans  &kp trans  &kp trans  &kp ESC    &kp trans  kp trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp DEL    &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME   &kp PGDN   &kp PGUP   &kp END    &kp INS    &trans
+                                                 &trans  &trans  &trans  &trans  &trans  &kp ESC    &trans  kp trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;

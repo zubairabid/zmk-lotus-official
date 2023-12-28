@@ -62,7 +62,7 @@
             bindings = <
 &kp GRAVE  &kp N1       &kp N2       &kp N3      &kp N4      &kp N5                                 &kp N6      &kp N7      &kp N8      &kp N9       &kp N0          &kp BSLH
 &kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                                  &kp Y       &kp U       &kp I       &kp O        &kp P           &kp MINUS
-&kp CAPS   &hm LCTRL A  &hm LSHFT S  &hm LALT D  &hm LGUI F  &kp G         &bl BL_ON    &bl BL_OFF  &kp H       &hm RGUI J  &hm RALT K  &hm RSHFT L  &hm RCTRL SEMI  &kp SQT
+&kp ESC    &hm LCTRL A  &hm LSHFT S  &hm LALT D  &hm LGUI F  &kp G         &bl BL_ON    &bl BL_OFF  &kp H       &hm RGUI J  &hm RALT K  &hm RSHFT L  &hm RCTRL SEMI  &kp SQT
 &kp LSHFT  &kp Z        &kp X        &kp C       &kp V       &kp B         &kp C_MUTE   &kp C_PP    &kp N       &kp M       &kp COMMA   &kp DOT      &kp FSLH        &kp EQUAL
                                      &kp LBKT    &lt 6 TAB   &lt 5 ESCAPE  &lt 4 SPACE  &lt 1 RET   &lt 2 BSPC  &lt 3 SQT   &kp RBKT
             >;
